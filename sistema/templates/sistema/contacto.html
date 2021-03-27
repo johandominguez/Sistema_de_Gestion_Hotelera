@@ -1,0 +1,19 @@
+{% extends "sistema/base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% load static %}
+
+{% block content %}
+
+<form action="" class= 'contenedorFormulario' method="POST">
+
+	{% csrf_token %} 
+
+	{{formulariocontacto | crispy }}
+
+	<input type="submit" value="Enviar" class="btn btn-primary" style="width: 100px;">
+	<input type="reset" value="Borrar" class="btn btn-secondary" style="width: 100px;">
+</form>
+
+{% endblock %}

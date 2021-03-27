@@ -1,0 +1,4 @@
+LOGUIN SITIO DE ADMINISTRADOR 
+User : admin
+Email address : js_dominguez@outlook.com
+Password : sistema20511
